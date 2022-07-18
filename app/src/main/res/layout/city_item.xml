@@ -4,14 +4,20 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="5dp"
-    app:cardBackgroundColor="@color/blue"
     app:cardCornerRadius="5dp"
+    android:backgroundTint="@color/gray"
+    android:background="@drawable/border2"
+
+
     app:cardElevation="3dp">
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="4dp">
+        android:layout_margin="4dp"
+
+
+        >
         <!--text view for displaying our cities-->
         <TextView
             android:id="@+id/idCity"

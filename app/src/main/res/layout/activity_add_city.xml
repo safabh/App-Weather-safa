@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/city_bg">
+    android:background="@drawable/weather_background">
 
     <!--edit text for city name-->
     <EditText
@@ -14,8 +14,8 @@
         android:layout_marginEnd="10dp"
         android:layout_marginBottom="10dp"
         android:hint="@string/AddCity"
-        android:textColor="@color/black"
-        android:textColorHint="@color/blue" />
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"/>
 
     <!--button for saving a city-->
     <Button
@@ -27,7 +27,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="20dp"
-        android:background="@drawable/custom_button_back"
+        android:backgroundTint="@color/gray"
         android:text="@string/AddCityButton"
         android:textAllCaps="false"
         android:textColor="@color/white" />

@@ -8,12 +8,11 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.myapplicationtest.R
+import com.example.myapplicationtest.ui.activity.MainActivity
 import com.example.sdk.data.model.CityModel
 
 class CityAdapter(
-    val context: Context,
-    val cityClickInterface: CityClickInterface
-) :
+    val cityClickInterface: CityClickInterface, mainActivity: MainActivity) :
     RecyclerView.Adapter<CityAdapter.ViewHolder>() {
 
     //on below line we are creating a variable for our all cities list.
@@ -37,7 +36,6 @@ class CityAdapter(
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         //on below line we are setting data to item of recycler view.
         holder.city.setText(allcities.get(position).cityTitle)
-       // holder.dateTV.setText("Last Updated : "+allcities.get(position).timeStamp)
         //on below line we are adding click listner to our recycler view item.
         holder.itemView.setOnClickListener {
             //on below line we are calling a city click interface and we are passing a position to it.
@@ -59,11 +57,9 @@ class CityAdapter(
         //on below line we are calling notify data change method to notify our adapter.
         notifyDataSetChanged()
     }
-
 }
 
-
 interface CityClickInterface {
-    //creating a method for click action on recycler view item for updating it.
+    //creating a method for click action on recycler view item.
     fun onCityClick(city: CityModel)
 }

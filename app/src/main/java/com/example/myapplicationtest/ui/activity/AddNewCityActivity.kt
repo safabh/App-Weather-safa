@@ -8,8 +8,8 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
 import com.example.myapplicationtest.R
+import com.example.myapplicationtest.viewmodel.CityViewModal
 import com.example.sdk.data.model.CityModel
-import com.example.sdk.data.viewmodel.CityViewModal
 import java.text.SimpleDateFormat
 import java.util.*
 
@@ -39,7 +39,7 @@ class AddNewCityActivity : AppCompatActivity() {
                 val sdf = SimpleDateFormat("dd MMM, yyyy - HH:mm")
                 val currentDateAndTime: String = sdf.format(Date())
                 //if the string is not empty we are calling a add city method to add data to our room database.
-                viewModalCity.addcity(CityModel(cityName,currentDateAndTime))
+                viewModalCity.addcity(CityModel(cityName.lowercase(),currentDateAndTime))
                 Toast.makeText(this, "$cityName à été ajouter avec succés", Toast.LENGTH_LONG).show()
             }
             startActivity(Intent(applicationContext, MainActivity::class.java))
