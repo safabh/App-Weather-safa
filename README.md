@@ -1,5 +1,3 @@
-# App-Weather-safa
-Android weather application implemented using the MVVM pattern, Retrofit , Dagger Hilt LiveData, ViewModel, Coroutines, Room. WeatherApp fetches data from the OpenWeatherMap API.
 # Weather Application
 Android weather application implemented using the MVVM pattern, Dagger Hilt, Retrofit , LiveData, ViewModel, Coroutines, Room. WeatherApp fetches data from the [OpenWeatherMap API](https://openweathermap.org/api) to provide real time weather information. 
 
@@ -24,5 +22,5 @@ The architecture of this application relies and complies with the following poin
 * [LiveData](https://developer.android.com/topic/libraries/architecture/livedata) to handle data in a lifecycle-aware fashion.
 * [Coroutines](https://kotlinlang.org/docs/reference/coroutines-overview.html)Coroutines help in managing background threads and reduces the need for callbacks.
 * [Room](https://developer.android.com/topic/libraries/architecture/room) persistence library which provides an abstraction layer over SQLite to allow for more robust database access while harnessing the full power of SQLite.
-* [Glide](https://www.axopen.com/blog/2020/08/glide-kotlin-librairie-chargement-images-android/) which helps to write more concise, idiomatic Kotlin code.
+* [Glide](https://www.axopen.com/blog/2020/08/glide-kotlin-librairie-chargement-images-android/) is an Image Loader Library for Android developed.
 
