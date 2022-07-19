@@ -1,5 +1,3 @@
-# App-Weather-safa
-Android weather application implemented using the MVVM pattern, Retrofit , Dagger Hilt LiveData, ViewModel, Coroutines, Room. WeatherApp fetches data from the OpenWeatherMap API.
 # Weather Application
 Android weather application implemented using the MVVM pattern, Dagger Hilt, Retrofit , LiveData, ViewModel, Coroutines, Room. WeatherApp fetches data from the [OpenWeatherMap API](https://openweathermap.org/api) to provide real time weather information. 
 
