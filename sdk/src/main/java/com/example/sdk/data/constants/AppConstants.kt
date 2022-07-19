@@ -1,4 +1,4 @@
-package com.example.myapplicationtest.util
+package com.example.sdk.data.constants
 
 object AppConstants {
     const val CLIENT_ID: String = "63ef117ce190b8080e298c3ebc69e9ca"

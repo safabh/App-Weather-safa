@@ -1,3 +1,14 @@
 <resources>
-    <string name="app_name">My Application Test</string>
+    <string name="app_name">Weather Application</string>
+    <string name="AddCity">Entry Your City</string>
+    <string name="Add_City">Add Your City</string>
+    <string name="AddCityButton">Save</string>
+    <string name="City">City</string>
+    <string name="List_Cities">List Of Cities</string>
+    <string name="Check_Your_Weather">Check Your Weather</string>
+    <string name="Temp_min">Temp Minimum</string>
+    <string name="Temp_max">Temp Maximum</string>
+    <string name="Humidity">Humidity</string>
+    <string name="Wind">Wind</string>
+    <string name="CODE">Country Code</string>
 </resources>
