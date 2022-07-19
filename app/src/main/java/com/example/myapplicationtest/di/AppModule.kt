@@ -1,4 +1,4 @@
-package com.bersyte.retrofitdaggerhilt.di
+package com.example.myapplicationtest.di
 
 import com.example.sdk.data.constants.AppConstants
 import com.example.sdk.network.ApiClient
